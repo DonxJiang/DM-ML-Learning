@@ -18,6 +18,16 @@ Data contains value and knowledge. But to extract the knowledge the data needs t
 - **Useful**:  should be possible to act on the item 
 - **Unexpected**:  non-obvious to the system
 - **Understandable**: humans should be able to interpret the pattern
+ 
+#### 1.1.4 Computational Approaches to modeling
+two approaches:
+ 1. Summarizing the data succinctly and approximately (PageRank, clustering)
+ 2. Extracting the most prominent feature of the data and ignoring the rest.(Bayes nets, Frequent Itemsets, Similar Items-recommand)
+
+
+#### 1.1.5 Statistical Limits
+ 1. Total Information Awareness: its feasibility and the realism of its assumptions. The answer is that it all depends on how **narrowly** you define the activities that you look for.->Bonferroni’s Principle
+ 2. **Bonferroni’s principle**: that helps us avoid treating random occurrences as if they were real.  Calculate the expected number of occurrences of the events you are looking for, on the assumption that data is random. If this number is significantly larger than the number of real instances you hope to find, then you must expect almost anything you find to be bogus, i.e., a statistical artifact rather than evidence of what you are looking for. This observation is the informal statement of Bonferroni’s principle.
 
 ### 1.2 Data Mining Tasks and Problems
 #### 1.2.1 Descriptive methods
@@ -28,9 +38,7 @@ Data contains value and knowledge. But to extract the knowledge the data needs t
 
 #### 1.2.3 Outlier/anomaly detection
 **Find unusual patterns**
-**WHY?**: A risk with “Data mining” is that an analyst can “discover” patterns that are meaningless. Statisticians call it **Bonferroni’s principle**.
-> **Bonferroni’s principle**: that helps us avoid treating random occurrences as if they were real. 
-Calculate the expected number of occurrences of the events you are looking for, on the assumption that data is random. If this number is significantly larger than the number of real instances you hope to find, then you must expect almost anything you find to be bogus, i.e., a statistical artifact rather than evidence of what you are looking for. This observation is the informal statement of Bonferroni’s principle.
+**WHY?**: A risk with “Data mining” is that an analyst can “discover” patterns that are meaningless. Statisticians call it 
 
 
 ### 1.3 Data Structure
